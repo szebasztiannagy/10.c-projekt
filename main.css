@@ -1,0 +1,30 @@
+body{ 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    background-color: purple;
+}
+
+.navbar {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+footer{
+    margin-right: 30px;
+    margin-left: 30px;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 78px);
+}
+footer>p{
+    text-align: center;
+    color: white;
+    margin: 8px;
+}
+#év{
+    float: left;
+}
+#osztály{
+    float: right;
+}
