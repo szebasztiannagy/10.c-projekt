@@ -8,49 +8,15 @@
         <link href="main.css" rel="stylesheet">
         <title>Fő oldal</title>
     </head>
-    <style>
-        .topnav {
-            overflow: hidden;
-            background-color: #333;
-            position: relative;
-        }
-
-        .topnav #myLinks {
-            display: none;
-            float: right;
-        }
-
-        .topnav a {
-            float: left;
-            color: white;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-
-        .topnav a.icon {
-            float: right;
-        }
-
-        .topnav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        .active {
-            background-color: #04AA6D;
-            color: white;
-        }
-    </style>
     <body>
         <div class="topnav">
-            <a href="#home" class="active">Logo</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a style="padding: 14px 16px;" href="#home" class="active">Logo</a>
+            <a style="padding: 14px 16px;" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             <div id="myLinks">
-              <a href="#Menu1">Menu1</a>
-              <a href="#Menu2">Menu2</a>
-              <a href="#Menu3">Menu3</a>
+              <a style="padding: 14px 16px;" class="button" href="#Menu1">Menu1</a>
+              <a style="padding: 14px 16px;" class="button" href="#Menu2">Menu2</a>
+              <a style="padding: 14px 16px;" class="button" href="#Menu3">Menu3</a>
             </div>
           </div>
         <div class="content">
@@ -66,7 +32,7 @@
         <footer>
             <p>
                 <span id="év">2022</span>
-                <span>Fő oldal</span>
+                <span>Főoldal</span>
                 <span id="osztály">10.c</span>
             </p>
         </footer> 
