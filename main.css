@@ -5,6 +5,7 @@ body{
     background-color: purple;
 }
 
+
 footer{
     margin-right: 30px;
     margin-left: 30px;
@@ -24,25 +25,21 @@ footer>p{
     float: right;
 }
 
+
 .topnav {
     overflow: hidden;
     background-color: #333;
     position: relative;
 }
 
-.topnav #myLinks {
+#myLinks {
     display: none;
     float: right;
 }
-
 .topnav a {
-    float: left;
     color: white;
     text-decoration: none;
     font-size: 17px;
-}
-.topnav a.icon {
-    float: right;
 }
 .topnav a:hover {
     background-color: #ddd;
@@ -54,7 +51,19 @@ footer>p{
 }
 .topnav .icon{
     padding: 14px 16px;
+    float: right;
 }
 #myLinks .icon{
     padding: 0px 0px;
+    float: right;
+}
+
+
+
+#Menu1,#Menu2,#Menu3{
+    display: none;
+    max-height: 250px;
+}
+.button{
+    padding: 14px 16px;
 }
