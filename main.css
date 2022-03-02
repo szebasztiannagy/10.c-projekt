@@ -52,3 +52,9 @@ footer>p{
     background-color: #04AA6D;
     color: white;
 }
+.topnav .icon{
+    padding: 14px 16px;
+}
+#myLinks .icon{
+    padding: 0px 0px;
+}
