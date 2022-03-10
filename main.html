@@ -9,12 +9,47 @@
         <title>Főoldal</title>
     </head>
     <body>
-        <div class="topnav">
-            <a style="float: left; padding: 14px 16px;"href="main.html" class="active">Home</a>
-            <a class="icon" onclick="hamburgermenu()">
+        <div class="navbar">
+            <a class="icon" onclick=hamburgermenu()>
                 <i class="fa fa-bars"></i>
             </a>
-            <div id="myLinks">
+            <div id="dropdowns">
+              <div id="dropdown">
+                <div class="dropbtn">Számológépek
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="aloldalak/teszt.html">teszt</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+              </div>
+              <div id="dropdown1">
+                <div class="dropbtn">Számítógépek
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+              </div>
+              <div id="dropdown2">
+                <div class="dropbtn">Nyomtatók
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div>
+          <h1>Tesztttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt</h1>
+        </div>
+                    <!--
                     <a style="float: left;" class="button" onclick="menu1()">Menu1
                         <div id="Menu1">
                             Jani ratyi
@@ -32,17 +67,7 @@
                             Menu3
                         </div>
                     </a>
-            </div>
-        </div>
-        <div class="content">
-            <div id ="tema1">
-                <img src="" alt="">
-            </div>
-            <div id ="tema2">
-                <img src="" alt="">
-            </div>
-            <div id ="tema3">
-            </div>
+                  -->
         </div>
         <footer>
             <p>
@@ -51,6 +76,19 @@
                 <span id="osztály">10.c</span>
             </p>
         </footer> 
+        <script>
+          function hamburgermenu() {
+            var x = document.getElementById("dropdowns");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }
+
+        </script>
+
+        <!--
         <script>
             function hamburgermenu() {
               var x = document.getElementById("myLinks");
@@ -88,5 +126,6 @@
               }
             }
         </script>
+        -->
     </body>
 </html>
