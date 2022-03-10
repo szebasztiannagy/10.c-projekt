@@ -114,3 +114,21 @@ footer>p{
 #dropdowns{
     display: none;
 }
+#Menu1,#Menu2,#Menu3{
+    display: none;
+    height: 250px;
+    background-color: #333;
+    width: 184px;
+    margin-top: 1px;
+    text-align: center;
+    float:right;
+}
+#menuk{
+    margin-right: 48.58px;
+}
+
+.button{
+    padding: 14px 16px;
+    width: 150px;
+    text-align: center;
+}
