@@ -2,7 +2,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
-    background-color: purple;
+    background-image: url(Képek/elmosott.png);
 }
 footer{
     margin-right: 30px;
@@ -25,33 +25,35 @@ footer>p{
 
 .navbar a {
     float: right;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     text-align: center;
     padding: 14px 16px;
+    font-weight: bolder;
     text-decoration: none;
-    background-color: rgb(121, 123, 138);
+    background-color: rgb(169,169,169);
 }
 #dropdown {
     float: right;
     overflow: hidden;
     display: block;
-    background-color: rgb(121, 123, 138);
+    background-color: rgb(169,169,169);
 }
 #dropdown1 {
     float: right;
     overflow: hidden;
     display: block;
-    background-color: rgb(121, 123, 138);
+    background-color: rgb(169,169,169);
 }
 #dropdown2 {
     float: right;
     overflow: hidden;
     display: block;
-    background-color: rgb(121, 123, 138);
+    background-color: rgb(169,169,169);
 }
 .dropbtn {
-    font-size: 16px;  
+    font-size: 18px;
+    font-weight: bolder;  
     border: none;
     outline: none;
     color: white;
@@ -61,6 +63,7 @@ footer>p{
     margin: 0;
     width: 135px;
     text-align: center;
+    border: 0.5px rgb(105,105,105) solid;
 }
 .dropbtn:hover {
     background-color: rgb(126, 183, 236);
@@ -70,7 +73,6 @@ footer>p{
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     width: 135px;
     z-index: 1;
 }
@@ -83,7 +85,7 @@ footer>p{
     text-align: center;
     width: 135px;
     color: white;
-    border: 0.5px white solid;
+    border: 0.5px rgb(105,105,105) solid;
 }
 .dropdown-content a:hover {
     background-color: rgb(126, 183, 236);
