@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="main.css" rel="stylesheet">
+        <title>Nyomtatók</title>
+    </head>
+    <body>
+        <div class="topnav">
+            <a style="padding: 14px 16px;" href="#home" class="active">Logo</a>
+            <a class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            <div id="myLinks">
+              <a style="padding: 14px 16px;" class="button" href="#Menu1">Számológépek</a>
+              <a style="padding: 14px 16px;" class="button" href="#Menu2">Nyomtatók</a>
+              <a style="padding: 14px 16px;" class="button" href="#Menu3">Számítógépek</a>
+            </div>
+          </div>
+        <footer>
+            <p>
+                <span id="év">2022</span>
+                <span>Nyomtatók oldala</span>
+                <span id="osztály">10.c</span>
+            </p>
+        </footer> 
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+body{ 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    background-color: purple;
+}
+
+footer{
+    margin-right: 30px;
+    margin-left: 30px;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 78px);
+}
+footer>p{
+    text-align: center;
+    color: white;
+    margin: 8px;
+}
+#év{
+    float: left;
+}
+#osztály{
+    float: right;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+    float: right;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a.icon {
+    float: right;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.topnav .icon{
+    padding: 14px 16px;
+}
+#myLinks .icon{
+    padding: 0px 0px;
+}
