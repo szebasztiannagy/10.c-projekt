@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="hu">
     <head>
@@ -10,85 +9,70 @@
         <title>Főoldal</title>
     </head>
     <body>
-        <div class="topnav">
-            <a style="float: left; padding: 14px 16px;"href="main.html" class="active">Home</a>
-            <a class="icon" onclick="hamburgermenu()">
-                <i class="fa fa-bars"></i>
+        <div class="navbar">
+            <a style="padding: 0px 0px; border: 2px blue  solid;"class="icon" id="iconbtn" onclick=hamburgermenu()>
+                <img src="Képek/közgázlogó.png" id="icon" alt="Navbar btn" width="80" height="52">
             </a>
-            <div id="myLinks">
-                    <a style="float: left;" class="button" onclick="menu1()">Menu1
-                        <div id="Menu1">
-                            Jani ratyi
-                        </div>
-                    </a>
-
-                    <a style="float: left;" class="button" onclick="menu2()">Menu2
-                        <div id="Menu2">
-                            Menu2
-                        </div>
-                    </a>
-
-                    <a style="float: left;" class="button" onclick="menu3()">Menu3
-                        <div id="Menu3">
-                            Menu3
-                        </div>
-                    </a>
+            <div id="dropdowns">
+              <div id="dropdown">
+                <div class="dropbtn">Számológépek
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="aloldalak/teszt.html">teszt</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+              </div>
+              <div id="dropdown1">
+                <div  class="dropbtn">Számítógépek
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+              </div>
+              <div id="dropdown2">
+                <div  class="dropbtn">Nyomtatók
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+              </div>
             </div>
         </div>
-        <div class="content">
-            <div id ="tema1">
-                <img src="" alt="">
-            </div>
-            <div id ="tema2">
-                <img src="" alt="">
-            </div>
-            <div id ="tema3">
-            </div>
+        <div>
+          <h1 style="padding-top:9px;padding-left:15px;font-size: 30px;color: white;font-weight: bolder;">Ceglédi SZC Közgazdasági és Informatikai Technikum</h1>
         </div>
         <footer>
             <p>
                 <span id="év">2022</span>
                 <span>Főoldal</span>
-                <span id="osztály">10.c</span>
+                <span id="osztály">10. c</span>
             </p>
-          
         </footer> 
         <script>
-            function hamburgermenu() {
-              var x = document.getElementById("myLinks");
-              if (x.style.display === "block") {
-                x.style.display = "none";
-              } else {
-                x.style.display = "block";
-              }
+          function hamburgermenu() {
+            var x = document.getElementById("dropdowns");
+            var y = document.getElementById("icon");
+            var z = document.getElementById("iconbtn");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+              y.style.width = "80px"
+              y.style.height = "52px"
+              z.style.border = "2px blue  solid"
+            } else {
+              x.style.display = "block";
+              y.style.width = "70px"
+              y.style.height = "44px"
+              z.style.border = "0.5px rgb(105,105,105)  solid"
             }
-
-            function menu1() {
-              var x = document.getElementById("Menu1");
-              if (x.style.display === "block") {
-                x.style.display = "none";
-              } else {
-                x.style.display = "block";
-              }
-            }
-
-            function menu2() {
-              var x = document.getElementById("Menu2");
-              if (x.style.display === "block") {
-                x.style.display = "none";
-              } else {
-                x.style.display = "block";
-              }
-            }
-
-            function menu3() {
-              var x = document.getElementById("Menu3");
-              if (x.style.display === "block") {
-                x.style.display = "none";
-              } else {
-                x.style.display = "block";
-              }
-            }
+          }
         </script>
     </body>
 </html>
