@@ -1,0 +1,69 @@
+body{ 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  background-color: #696969;
+}
+
+
+footer{
+  margin-right: 30px;
+  margin-left: 30px;
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 78px);
+}
+footer>p{
+  text-align: center;
+  color: white;
+  margin: 8px;
+}
+#év{
+  float: left;
+}
+#osztály{
+  float: right;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+#myLinks {
+  display: none;
+  float: right;
+}
+.topnav a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.active {
+  background-color: #f0e68c;
+  color: white;
+}
+.topnav .icon{
+  padding: 14px 16px;
+  float: right;
+}
+#myLinks .icon{
+  padding: 0px 0px;
+  float: right;
+}
+
+
+
+#Menu1,#Menu2,#Menu3{
+  display: none;
+  max-height: 250px;
+}
+.button{
+  padding: 14px 16px;
+}

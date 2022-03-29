@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="main.css" rel="stylesheet">
+        <title>Főoldal</title>
+    </head>
+    <body>
+        <div class="topnav">
+            <a style="float: left; padding: 14px 16px;"href="main.html" class="active">Home</a>
+            <a class="icon" onclick="hamburgermenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div id="myLinks">
+                    <a style="float: left;" class="button" onclick="menu1()">Menu1
+                        <div id="Menu1">
+                            Jani ratyi
+                        </div>
+                    </a>
+
+                    <a style="float: left;" class="button" onclick="menu2()">Menu2
+                        <div id="Menu2">
+                            Menu2
+                        </div>
+                    </a>
+
+                    <a style="float: left;" class="button" onclick="menu3()">Menu3
+                        <div id="Menu3">
+                            Menu3
+                        </div>
+                    </a>
+            </div>
+        </div>
+        <div class="content">
+            <div id ="tema1">
+                <img src="" alt="">
+            </div>
+            <div id ="tema2">
+                <img src="" alt="">
+            </div>
+            <div id ="tema3">
+            </div>
+        </div>
+        <footer>
+            <p>
+                <span id="év">2022</span>
+                <span>Főoldal</span>
+                <span id="osztály">10.c</span>
+            </p>
+          
+        </footer> 
+        <script>
+            function hamburgermenu() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+
+            function menu1() {
+              var x = document.getElementById("Menu1");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+
+            function menu2() {
+              var x = document.getElementById("Menu2");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+
+            function menu3() {
+              var x = document.getElementById("Menu3");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+        </script>
+    </body>
+</html>
