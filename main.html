@@ -9,6 +9,7 @@
         <title>Főoldal</title>
     </head>
     <body>
+      <img id="mapimg" class="elmosott" src="Képek/elmosott.png" usemap="#image-map" alt="Térkép">
         <div class="navbar">
             <a style="padding: 0px 0px; border: 2px blue  solid;"class="icon" id="iconbtn" onclick=hamburgermenu()>
                 <img src="Képek/közgázlogó.png" id="icon" alt="Navbar btn" width="80" height="52">
@@ -74,5 +75,12 @@
             }
           }
         </script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/jquery.rwdImageMaps.min.js"></script>    
+        <script>
+            $(document).ready(function(e) {
+                $('img[usemap]').rwdImageMaps();
+            });
+        </script>  
     </body>
 </html>
