@@ -4,6 +4,9 @@ body{
     background-attachment: fixed; 
     background-size: 100% 100%;
     background-repeat: no-repeat;
+
+    padding-bottom: 50px;
+
 }
 
 footer{
@@ -17,11 +20,13 @@ footer{
     font-size: 18px;
     font-weight: bolder;
     border: 0.5px rgb(105,105,105) solid;
+    z-index: 2;
 }
 footer>p{
     text-align: center;
     color: white;
     margin: 8px;
+    
 }
 #év{
     float: left;
@@ -29,6 +34,7 @@ footer>p{
 #osztály{
     float: right;
 }
+
 
 .navbar a {
     float: right;
@@ -112,6 +118,7 @@ footer>p{
     display: none;
 }
 
+
 div.elso_div {
     position:absolute;
     right: 20px;
@@ -148,11 +155,22 @@ p.solid{
     font-family: Helvetica;
     letter-spacing: 1px;
 }
-img{
+.nyomtato_kep{
     border: 2px solid rgb(105,105,105);
     width: 100%;
     border-radius: 10%;
     box-shadow: black 5px 5px 5px;
+}
+.lap_kep{
+    width: 30%;
+    margin: -1;
+    padding-top: 30px;
+    position: absolute;
+    padding-left: 20px;    
+}
+
+div{
+    padding-bottom: 20px;
 }
 
 div.negyedik_div{
@@ -175,4 +193,13 @@ div.otodik_div{
     margin-bottom: 20%;
     
     
+}
+div.hatodik_div{
+    position: absolute;
+    height: 80px;
+    width: 60%;
+    padding-top: 400px;
+    
+    padding-left: 90px;
+    margin:0 auto;
 }
