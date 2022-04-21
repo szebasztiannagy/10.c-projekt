@@ -109,3 +109,15 @@ footer>p{
 #dropdowns{
     display: none;
 }
+.Eszkozkep{
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 50% 50%;
+    float: right;
+    padding-top: 200px;
+}
+.Szoveg{
+    color: black;
+    margin: 6px;
+
+}
