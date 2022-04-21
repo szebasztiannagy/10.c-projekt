@@ -1,0 +1,169 @@
+#cim{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar a{
+    text-align: center;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 2.5px;
+    background-color: rgb(56, 50, 37);
+    color: white;
+    text-decoration: none;
+}
+#navbar{
+    padding: 15px;
+    width: max-content;
+    margin: auto;
+    position: sticky;
+}
+body{
+    background-image: url("Képek/elmosott.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#szoveg{
+    background-color: rgb(43, 109, 231);
+    color: white;
+    border-style: solid;
+    border-width: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin: 5px;
+    width: fit-content;
+    display: inline-block;
+}
+#szoveg2{
+    background-color: rgb(43, 109, 231);
+    color: white;
+    border-style: solid;
+    border-width: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin: 5px;
+    width: fit-content;
+    display: inline-block;
+}
+#fo{
+    width: fit-content;
+    margin: auto;
+}
+
+footer{
+    background-color: rgb(169,169,169);
+    margin-right: 30px;
+    margin-left: 30px;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 78px);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 0.5px rgb(105,105,105) solid;
+}
+
+footer>p{
+    text-align: center;
+    color: white;
+    margin: 8px;
+}
+
+#év{
+    float: left;
+}
+#osztály{
+    float: right;
+}
+
+
+.spec{
+    margin-left: 30%;
+}
+
+.navbar{
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.navbar a {
+    float: right;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: rgb(169,169,169);
+}
+#dropdown {
+    float: right;
+    overflow: hidden;
+    display: block;
+    background-color: rgb(169,169,169);
+}
+#dropdown1 {
+    float: right;
+    overflow: hidden;
+    display: block;
+    background-color: rgb(169,169,169);
+}
+#dropdown2 {
+    float: right;
+    overflow: hidden;
+    display: block;
+    background-color: rgb(169,169,169);
+}
+
+.dropbtn {
+    font-size: 18px;
+    font-weight: bolder;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    width: 135px;
+    text-align: center;
+    border: 0.5px rgb(105,105,105) solid;
+}
+.dropbtn:hover {
+    background-color: rgb(126, 183, 236);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    width: 135px;
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 135px;
+    color: white;
+    border: 0.5px rgb(105,105,105) solid;
+}
+.dropdown-content a:hover {
+    background-color: rgb(126, 183, 236);
+}
+  
+#dropdown:hover .dropdown-content {
+    display: block;
+}
+#dropdown1:hover .dropdown-content {
+    display: block;
+}
+
+#dropdown2:hover .dropdown-content {
+    display: block;
+}
+#dropdowns{
+    display: none;
+}
