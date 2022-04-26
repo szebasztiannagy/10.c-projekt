@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="Daro_Ascota.css" rel="stylesheet">
+        <title>Főoldal</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <a style="padding: 0px 0px; border: 2px blue  solid;"class="icon" id="iconbtn" onclick=hamburgermenu()>
+                <img src="Képek/közgázlogó.png" id="icon" alt="Navbar btn" width="80" height="52">
+            </a>
+            <div id="dropdowns">
+              <div id="dropdown">
+                <div class="dropbtn">Számológépek
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="Daro_Ascota.html">Daro Ascota</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+              </div>
+              <div id="dropdown1">
+                <div  class="dropbtn">Számítógépek
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+              </div>
+              <div id="dropdown2">
+                <div  class="dropbtn">Nyomtatók
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div>
+          <h1 style="padding-top:9px;padding-left:15px;font-size: 30px;color: white;font-weight: bolder;">Ceglédi SZC Közgazdasági és Informatikai Technikum</h1>
+        </div>
+        <div class="container">
+        <h2><div id="cim">Daro Ascota</div></h2>
+       <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+        <div class="bekezdes" style="font-family: 'Orbitron', sans-serif;">
+          <p>A világ a 80-as években jár. Az IBM uralta a professzionális számítógépek piacát a PC-vel és a PC XT-vel, amelyek a modern asztali számítógépek előfutárai. Steve Jobs egymás után adta ki az új Apple modelleket. A Commodore 64 és a ZX Spectrum dörgött szerte a világon. Eközben a szovjet blokk tovább gyártotta az Ascota 170-et, egy mechanikus számológépet az ötvenes évek elején. Valamiért a Runetben (és az internet többi részén is) keveset beszélnek ezekről a csodálatos gépekről, amelyek talán az egyetlen sorozatgyártású (1955 és 1983 között több mint háromszázezer) Turing-complete mechanikus számítógépek.
+
+          Az Ascot 170 olyan, mint egy programozható gép. De a „programozható” egy laza fogalom. Ascotokat nagy mennyiségben szállítottak a Szovjetunióba, és könyvek tucatjai jelentek meg róluk. A gép folyamatosan ciklusban működik, és valahogy támogatja az átmeneteket. Az Ascotnak feltételes operátorai vannak. És általában minden, ami egy teljes értékű általános célú számítógép futtatásához szükséges.
+
+          Működés közben a gép kocsija jobbról balra mozog a gép testéhez képest - mint egy hagyományos írógépen. Ezzel egyidejűleg a nyomtatóegység végigcsúszik a papíron, a programparancs-olvasó egység pedig a program laphoz képest lyukakkal csúszik, amelyekbe ütköző csapok vannak beillesztve, akárcsak a zenedoboz dobjában.
+          Egy ponton az olvasási csomópont talál egy oszlopleállítást, ami azt jelenti, hogy „itt meg kell állni, és tenni kell valamit”, megáll, és azt teszi, amit az oszlop többi megállója és a kezelő által lenyomott billentyűk megkívánnak. Ha pedig az olvasó csomópont nem talál stoppot a kocsi vége előtt, akkor a kocsi automatikusan egészen jobbra mozog, és újra indul a pásztázás - ilyen a főhurok, amelyben a program vég nélkül pörög. A gyakorlatban körülbelül 50 ilyen „kell valamit csinálni” megálló, azaz program lépés lehet egy táblán. Egy lépésben több parancs is végrehajtható.
+
+          A gép aktívan hozzáfér a regiszterekhez; a regiszterek fogaskerekek sorai a gép testében, így a programmemória (ütközőkkel ellátott tábla) elválik az adat memóriától (regiszter fogaskerekek sorai). Összességében a gép ~50 parancs memória lépéssel (~0,3 kB) és 56, egyenként 12 tizedesjegyű egész regiszterrel rendelkezik (további 0,3 kB). A gép egy lépésben beolvashat egy regisztert, kinyomtathatja annak tartalmát, hozzáadhatja vagy kivonhatja több másik regiszterből, és nullára állíthatja. Ezzel egyidejűleg néhány lehetőség a nullával való összehasonlításra, valamint számos átmeneti parancs végrehajtásra kerül.
+
+          Sajnos a gépi kód összetettsége és gazdagsága ellenére számos kellemetlen korlátja van:
+          </p>  
+      </div>
+        <div class="pontok" style="font-family: 'Orbitron', sans-serif;">
+          <p>1.) A gépnek nincsenek szorzási és osztási parancsai.
+          Furcsa módon ez nem hiba, hanem szolgáltatás. Az egyszerűbb számviteli gépek többsége rendelkezik szorzási paranccsal, de az Ascot fejlesztői már az 1950-es évek elején megértették, hogy a mechanika napjai meg vannak számlálva, és a lassú és ügyetlen mechanikai szorzó helyett egy külső matematikai modul csatlakoztatásának lehetőségét biztosították.
+          </p>
+      </div>
+        <div class="pontok" style="font-family: 'Orbitron', sans-serif;">
+          <p>2.) A gép nem tudja, hogyan kell egy helyet jobbra vagy balra tolni.
+          Általánosságban elmondható, hogy a szorzást, osztást és egyéb trükkös matematikát programszerűen meg lehet szervezni; valójában sok modern RISC processzor is ezt teszi. Az Ascot is megteheti ezt - de sajnos ehhez el kell tolnia a számot egy számjeggyel, és ilyen parancs nincs megadva.
+          </p>
+        </div>
+        <div class="pontok" style="font-family: 'Orbitron', sans-serif;">
+          <p>3.) Az ugrásjelzők száma korlátozott.
+          Egy programnak többször is lehet vissza1, vissza2, előre1 és előre2 címkéje, és a programlépések megjelölhetők végrehajtásként az 1. programban, a 2. programban vagy mindkettőben. Jól hangzik, de egy meglehetősen bonyolult algoritmusról van szó.
+          </p>
+        </div>
+        <div class="pontok" style="font-family: 'Orbitron', sans-serif;">
+          <p>4.) Nem támogatja a tömböket és a közvetett címzést.
+          Az Ascotanak sok regisztere van. Gondoljunk csak bele: 50 programlépés van, minden lépéshez csak egy regiszter olvasható (és nyomtatható) - és 56 regiszter van. Azaz elvileg lehetetlen az összes regisztert közvetlenül megcímezni automatikus üzemmódban anélkül, hogy a regiszterszámot a billentyűzetről kiválasztanánk.
+        </p>
+        </div>
+        <div id="befejezes" style="font-family: 'Orbitron', sans-serif;">
+          <h3>Egy kép és egy videó a szerkezetről:<h3> 
+          <img src="Képek/Daro.jpg" alt="Daro" width="420px" height="292px">
+          <iframe width="420" height="292" src="https://www.youtube.com/embed/9sUsiYnHwqI">
+          </iframe>
+          <p>
+           Forrás:  <a href="https://www.youtube.com/watch?v=9sUsiYnHwqI" target="_blank" alt=orosz>https://www.youtube.com/watch?v=9sUsiYnHwqI</a>
+          </p>
+        </div>
+        <div id="forras">
+          <h3>Források és Szójegyzék</h3>
+          <p>
+            <a href="https://habr.com/ru/post/450538/" target="_blank" alt=orosz>https://habr.com/ru/post/450538/</a>
+          </p>
+          <p>
+            <a href="https://pixabay.com/vectors/element-digital-image-calculate-3801221/" target="_blank" alt=orosz>https://pixabay.com/vectors/element-digital-image-calculate-3801221/</a>
+          </p>
+            dr.Salamon József hozzájárulásával
+        </div>
+      </div>
+        <footer>
+            <p>
+                <span id="év">2022</span>
+                <span>Balogh Márkó</span>
+                <span id="osztály">10. c</span>
+            </p>
+        </footer>
+        </div>
+        <script>
+          function hamburgermenu() {
+            var x = document.getElementById("dropdowns");
+            var y = document.getElementById("icon");
+            var z = document.getElementById("iconbtn");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+              y.style.width = "80px"
+              y.style.height = "52px"
+              z.style.border = "2px blue  solid"
+            } else {
+              x.style.display = "block";
+              y.style.width = "70px"
+              y.style.height = "44px"
+              z.style.border = "0.5px rgb(105,105,105)  solid"
+            }
+          }
+        </script>
+    </body>
+</html>
