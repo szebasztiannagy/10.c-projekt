@@ -109,3 +109,47 @@ footer>p{
 #dropdowns{
     display: none;
 }
+#sajatszoveg{
+    padding-top: 4px;
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 40px;
+    border-radius: 30px;
+    padding-bottom: 30px;
+    border: 0.5px rgb(105,105,105) solid;
+    border-color: blue;
+    background-color: rgba(71, 71, 71, 0.5);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#sajatszoveg2{
+    padding-top: 4px;
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 40px;
+    border-radius: 30px;
+    padding-bottom: 30px;
+    border: 0.5px rgb(105,105,105) solid;
+    border-color: blue;
+    background-color: rgba(71, 71, 71, 0.5);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+
+}
+#link{
+color: black;
+
+}
+#MERAkep{
+    border: 0.5px rgb(105,105,105) solid;
+    float: right;
+    display: flex;
+    border-radius: 25px; 
+    border-color: blue;
+}
+#cimek{
+    font-size: 32px;
+}
