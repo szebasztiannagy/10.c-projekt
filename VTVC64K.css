@@ -114,10 +114,12 @@ footer>p{
     background-attachment: fixed; 
     background-size: 50% 50%;
     padding-top: 50px;
+    padding-right: 5px;
     float: right;
 }
 .Szoveg{
-    color:white;
+    color:black;
     margin: 6px;
-
+    font-size: larger;
+    background-color: darkgray;
 }
