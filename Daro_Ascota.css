@@ -1,0 +1,231 @@
+body{ 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    background-image: url(Képek/elmosott.png);
+}
+footer{
+    background-color: rgb(169,169,169);
+    margin-right: 30px;
+    margin-left: 30px;
+    width: calc(100% - 78px);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 0.5px rgb(105,105,105) solid;
+    clear: both;
+    position: relative;
+    height: 30px;
+    margin-top: 50%;
+}
+footer>p{
+    text-align: center;
+    color: white;
+    margin: 8px;
+}
+#év{
+    float: left;
+}
+#osztály{
+    float: right;
+}
+
+.navbar a {
+    float: right;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: rgb(169,169,169);
+}
+#dropdown {
+    float: right;
+    overflow: hidden;
+    display: block;
+    background-color: rgb(169,169,169);
+}
+#dropdown1 {
+    float: right;
+    overflow: hidden;
+    display: block;
+    background-color: rgb(169,169,169);
+}
+#dropdown2 {
+    float: right;
+    overflow: hidden;
+    display: block;
+    background-color: rgb(169,169,169);
+}
+.dropbtn {
+    font-size: 18px;
+    font-weight: bolder;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    width: 135px;
+    text-align: center;
+    border: 0.5px rgb(105,105,105) solid;
+}
+.dropbtn:hover {
+    background-color: rgb(126, 183, 236);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    width: 135px;
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 135px;
+    color: white;
+    border: 0.5px rgb(105,105,105) solid;
+}
+.dropdown-content a:hover {
+    background-color: rgb(126, 183, 236);
+}
+  
+#dropdown:hover .dropdown-content {
+    display: block;
+}
+#dropdown1:hover .dropdown-content {
+    display: block;
+}
+
+#dropdown2:hover .dropdown-content {
+    display: block;
+}
+#dropdowns{
+    display: none;
+}
+
+.pontok{
+    float: left;
+    font-family: 'Orbitron', sans-serif;
+    border: 6px solid;
+    width: 24%;
+    padding: 10px;
+    background-color: #ace5ee;
+    margin-top: 5%;
+    position: inline;
+    box-sizing: border-box;
+    margin-left: 10px;
+    line-height: 1.6;
+}
+
+.bekezdes{
+    font-family: 'Orbitron', sans-serif;
+    border: 10px solid;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ace5ee;
+    line-height: 1.6;
+}
+
+.bekezdes p{
+    overflow: hidden;
+    margin: 0 auto; 
+    letter-spacing: .15em;
+    animation: 
+    typing 2s steps(40, end),
+    blink-caret .75s step-end infinite;
+    margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#cim{
+    overflow: hidden;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+    typing 14s steps(40, end),
+    blink-caret .75s step-end infinite;
+    white-space: nowrap;
+}
+
+h2{
+    color:rgb(136, 136, 136);
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid;
+    background-color: #ace5ee;
+    font-family: 'Orbitron', sans-serif;
+} 
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.container{
+    display:inline;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#befejezes{
+    float: left;
+    font-family: 'Orbitron', sans-serif;
+    border: 6px solid;
+    width: 1050px;
+    padding: 10px;
+    background-image: url('Képek/hatter.png');
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 50%;
+    position: inline;
+    box-sizing: border-box;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+#befejezes img {
+    padding-right: 15px;
+    padding-bottom: 2px;
+}
+
+h3{
+    text-align: center;
+}
+
+#forras{
+    float: right;
+    font-family: 'Orbitron', sans-serif;
+    border: 6px solid;
+    width: 550px;
+    padding: 10px;
+    background-image: url('Képek/hatter.png');
+    margin-top: -500px;
+    margin-bottom: 7px;
+    box-sizing:border-box;
+    margin-right: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-wrap: break-word;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
