@@ -122,3 +122,18 @@ footer>p{
     background-image: url(#);
     height: 380px;
 }
+.cim{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.tomeg{
+    color: white;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+.link{
+    color: white;
+}
