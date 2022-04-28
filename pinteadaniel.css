@@ -1,33 +1,39 @@
 body{ 
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    background-size: 100% 100%;
+    background-size: cover;
     background-image: url(Képek/elmosott.png);
 }
+
 footer{
     background-color: rgb(169,169,169);
     margin-right: 30px;
     margin-left: 30px;
-    position: fixed;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
     bottom: 0;
     width: calc(100% - 78px);
     border-radius: 10px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
     font-size: 18px;
     font-weight: bolder;
     border: 0.5px rgb(105,105,105) solid;
 }
+
 footer>p{
     text-align: center;
     color: white;
     margin: 8px;
 }
+
 #év{
     float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 #osztály{
     float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .Main{
@@ -37,6 +43,7 @@ footer>p{
     color: white;
     font-weight: bolder;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
 }
 
 .navbar a {
@@ -67,6 +74,7 @@ footer>p{
     display: block;
     background-color: rgb(169,169,169);
 }
+
 .dropbtn {
     font-size: 18px;
     font-weight: bolder;  
@@ -81,9 +89,11 @@ footer>p{
     text-align: center;
     border: 0.5px rgb(105,105,105) solid;
 }
+
 .dropbtn:hover {
     background-color: rgb(126, 183, 236);
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -92,6 +102,7 @@ footer>p{
     width: 135px;
     z-index: 1;
 }
+
 .dropdown-content a {
     float: none;
     color: black;
@@ -103,6 +114,7 @@ footer>p{
     color: white;
     border: 0.5px rgb(105,105,105) solid;
 }
+
 .dropdown-content a:hover {
     background-color: rgb(126, 183, 236);
 }
@@ -110,6 +122,7 @@ footer>p{
 #dropdown:hover .dropdown-content {
     display: block;
 }
+
 #dropdown1:hover .dropdown-content {
     display: block;
 }
@@ -117,6 +130,7 @@ footer>p{
 #dropdown2:hover .dropdown-content {
     display: block;
 }
+
 #dropdowns{
     display: none;
 }
@@ -135,11 +149,13 @@ footer>p{
     margin-right: 32%;
     margin-left: 15px;
     background-clip: content-box;
-    margin-bottom: 3%;
+    margin-bottom: 4%;
     border-radius: 10px;
+    border-bottom-right-radius: 0%;
 }
 
 .Szoveg{
+    margin-top: 4%;
     margin-left: 3%;
     margin-right: 3%;
     text-align: left;
@@ -148,7 +164,6 @@ footer>p{
 }
 
 .Focim{
-    margin-top: 5%;
     text-align: center;
     font-size: 30px;
     text-decoration: underline;
@@ -180,13 +195,12 @@ h2{
     margin-left: 25%;
     margin-right: 3%;
     float: right;
-    background-color: rgb(255, 255, 255,0.65);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    color: white;
+    text-decoration: underline;
 }
 
 .kep1 img{
-    margin-top: 3%;
+    margin-top: 20%;
     margin-left: 72%;
     margin-right: 4%;
     width: 25%;
@@ -201,7 +215,16 @@ h2{
     margin-left: 25%;
     margin-right: 3%;
     float: right;
-    background-color: rgb(255, 255, 255,0.65);
+    color: white;
+    text-decoration: underline;
+}
+
+.kep2 img{
+    margin-top: 20%;
+    margin-left: 72%;
+    margin-right: 4%;
+    width: 25%;
+    border-radius: 10px;
 }
 
 table{
@@ -219,6 +242,10 @@ table{
     color: black;
     padding-left: 4%
 }
+.TableA a{
+    color: black;
+    text-decoration: underline;
+}
 
 .row{
     box-sizing: border-box;
@@ -234,4 +261,25 @@ table{
     content: "";
     display: table;
     clear: both;
+}
+.forras p{
+    float: right;
+    margin-top: -20px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 5%;
+}
+
+.h2ya{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 2%;
+}
+.h2ya a{
+    color: black;
+    text-decoration: underline;
 }
