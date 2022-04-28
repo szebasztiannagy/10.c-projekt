@@ -167,3 +167,20 @@ footer>p{
 #dropdowns{
     display: none;
 }
+#forras{
+    background-color: rgb(43, 109, 231);
+    color: white;
+    border-style: solid;
+    border-width: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin: 5px;
+    width: fit-content;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+#forras a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}

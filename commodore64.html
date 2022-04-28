@@ -52,13 +52,10 @@
             </div>
           </div>
         </div>
+      </div>
     </div>
       <div id="cim">
         <h1>Commodore64</h1>
-      </div>
-      <div id="navbar">
-        <!--<a href="Képek/elmosott.png">Teszt gomb 1</a>
-        <a>Teszt gomb 2</a>-->
       </div>
       <div id="fo">
         <div id="szoveg">
@@ -84,6 +81,15 @@
           <img src="Képek/IMG_0955.JPG" style="width:300px;" href="Képek/commodore64" alt="Commodore64">
           <img src="Képek/IMG_0957.JPG" style="width:300px;" href="Képek/commodore64" alt="Commodore64">
           <img src="Képek/IMG_0958.JPG" style="width:300px;" href="Képek/commodore64" alt="Commodore64">
+        </div>
+      </div>
+      <div id="fo">
+        <div id="szoveg">
+          <h1>BASIC Programnyelv</h1>
+          A Commodore 64 a BASIC (Beginner's All-purpose Symbolic Instruction Code) használta mint nyelv.
+          <br>A Fortran programozási nyelven alapul. Interpretált nyelv ami
+          <br>azt jelenti hogy a program futtatása közben átfordítja a gép a saját nyelvére.
+
         </div>
       </div>
       <div id="fo">
@@ -126,6 +132,31 @@
           <br>Tápegység: 5V DC és 9V AC a külső „áramtégla-monolitból” amely némely szériáknál meghibásodott és ezért a TV képernyőn sötét csíkok futottak valamint zúgó háttérzajt bocsátott ki, 7-pin DIN anya csatlakozóval.
         </div>
       </div>
+      <div id="fo">
+        <div id="forras">
+          <h1>Források</h1>
+          <a href="https://hu.wikipedia.org/wiki/Commodore_64">Commodore64</a>
+          <a href="https://hu.wikipedia.org/wiki/BASIC">BASIC Programnyelv</a>
+        </div>
+      </div>
+      <script>
+        function hamburgermenu() {
+          var x = document.getElementById("dropdowns");
+          var y = document.getElementById("icon");
+          var z = document.getElementById("iconbtn");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+            y.style.width = "80px"
+            y.style.height = "52px"
+            z.style.border = "2px blue  solid"
+          } else {
+            x.style.display = "block";
+            y.style.width = "70px"
+            y.style.height = "44px"
+            z.style.border = "0.5px rgb(105,105,105)  solid"
+          }
+        }
+      </script>
     </body>
     <footer>
       <p>
