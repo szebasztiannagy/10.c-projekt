@@ -46,27 +46,33 @@ footer{
     border-radius: 2%;
     box-shadow: black 10px 5px 10px;
     font-family: cursive;
+    padding-bottom: 1%;
 }
 
 .címek{
     margin-left: 1%;
     margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     color: white;
     font-size:xx-large;
     text-shadow: black 2px 2px 2px;
+    text-decoration: white underline;
 }
 
 .szövegek{
     color:black;
     margin-left: 3%;
     margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     font-size: x-large;
 }
 
 .kép{
     width: 40%;
     float:right;
-    margin: 5%;
+    margin: 3%;
     border-style: solid;
     border-color: black;
     box-shadow: black 5px 5px 5px;
@@ -76,11 +82,15 @@ footer{
 .forrás{
     text-align: center;
     font-size: medium;
-    color: black;
+}
+
+.forrás2{
+    color:black;
+    text-decoration: black underline;
 }
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 .gomb{
@@ -93,11 +103,12 @@ html{
     border-radius: 15%;
     box-shadow: black 2px 2px 2px;
     text-decoration: none;
+    border-style: groove;
+    border-color: black;
 }
 
 .gomb:hover{
     background-color:slategray;
-    text-shadow: white 1px 1px 2px;
 }
 
 .táblázat2{
