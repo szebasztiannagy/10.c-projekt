@@ -118,6 +118,22 @@ footer>p{
     display: none;
 }
 
+div.nulladik_div{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: rgb(233, 227, 227);
+    text-align: center;
+    font-size: 175%;
+    font-family: Helvetica;
+    margin-left: 35% ;
+    margin-right: 35%;
+    margin-bottom: 5px;
+    margin-top: 5%;
+    
+    
+}
 
 div.elso_div {
     position:absolute;
@@ -140,7 +156,7 @@ div.harmadik_div {
     right: 20px;
     height: auto;
     width: 60%;
-    padding-top: 50px;
+    padding-top: 5px;
     font-size: 99%;
 }
 
@@ -151,9 +167,10 @@ p.solid{
     border-radius: 5px;
     background-color: rgb(233, 227, 227);
     text-align: center;
-    font-size: 125%;
+    font-size: 140%;
     font-family: Helvetica;
     letter-spacing: 1px;
+    padding:0.2%;
 }
 .nyomtato_kep{
     border: 2px solid rgb(105,105,105);
@@ -201,5 +218,29 @@ div.hatodik_div{
     padding-top: 400px;
     
     padding-left: 90px;
-    margin:0 auto;
+    margin-bottom: 20%;
 }
+div.hetedik_div{
+    position: absolute;
+    height: 80px;
+    width: 60%;
+    padding-top: 400px;
+    
+    padding-left: 300px;
+    margin-top: 10%;
+}
+ 
+.Források_link{
+    padding-left: 50px;
+    text-align:right;
+    
+}
+.Források2_link{
+    text-align:right;
+    font-size: x-large;
+    color: black;
+    font-style: Helvetica;
+
+}
+
+
