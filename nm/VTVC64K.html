@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="VTVC64K.css" rel="stylesheet">
+        <title>Főoldal</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <a style="padding: 0px 0px; border: 2px blue  solid;"class="icon" id="iconbtn" onclick=hamburgermenu()>
+                <img src="Képek/közgázlogó.png" id="icon" alt="Navbar btn" width="80" height="52">
+            </a>
+            <div id="dropdowns">
+              <div id="dropdown">
+                <div class="dropbtn">Számológépek
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="aloldalak/teszt.html">teszt</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+              </div>
+              <div id="dropdown1">
+                <div  class="dropbtn">Számítógépek
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+              </div>
+              <div id="dropdown2">
+                <div  class="dropbtn">Nyomtatók
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div>
+          <h1 style="padding-top:9px;padding-left:15px;font-size: 30px;color: white;font-weight: bolder;">Ceglédi SZC Közgazdasági és Informatikai Technikum</h1>
+        </div>
+        <div class="Eszkozkep">
+          <img src="Képek/VideotonTVComputer64K_nm.png">
+      </div>
+        <div class="Szoveg">
+          <p><h3>Mi az a Videoton TVC?</h3></p>
+          <p>A Videoton TVC az 1980-as évek második felében a Videoton által gyártott személyi számítógép, korabeli terminológiával iskolaszámítógép. Három változatban készült (32k, 64k, 64k+), amelyek a memória méretében és az alaplapjukban különböztek egymástól.</p>
+          <p><h3>Története:</h3></p>
+          <p>A Videoton 1984-ben vásárolta meg az Enterprise-t is tervező cég egyik régebbi modelljének licencét. Az iskolaszámítógép program keretében állami megrendelésre 1988-ig 3000 db 32 KByte-os és 9000 db 64 Kbyte-os beépített memóriával rendelkező gépet adtak el iskolai felhasználásra.</p> Azonban ez nemcsak egy egyszerű licenszgép, hiszen a Videoton szakemberei igen komoly mennyiségű fejlesztést végeztek rajta. Épp ezek miatt a fejlesztések miatt nagyobb csúszással kerülhetett piacra, csak 1986 második felétől volt kapható.
+          <p>Az új BASIC verzióba (V2.2) több új utasítás (POLIGON, RECTANGLE, ELLIPSE, AUTO, FKEY, RENUMBER, EXCEPTION) és jó pár hibajavítás is bekerült.</p> <p>Sajnos a korábbi programok jelentős része nem működött az új gépen, például ha egy olyan ROM-ban lévő rutin hívott, amelynek címe megváltozott, illetve a kép pixelei elmozdulhattak, mivel a logikai koordinátákat az új eljárás nem csonkítással, hanem kerekítéssel számolja át fizikai koordinátákra.</p>
+          <p>A gép kiegészítőit, például a magnetofont a BRG gyártotta és 2900 Ft-ért lehetett megvásárolni. A gép - a hobbi-számítógépek között szokatlan módon - négy bővítősínt tartalmazott, így egyidejűleg négy bővítőkártya csatolása volt lehetséges. Néhány bővítési lehetőség: memóriabővítés (32 KB), floppy-interface, soros port, EPROM-égető.</p>
+          <p>A gép igen gyakran meghibásodott, továbbá a Novotrade nem vállalta a gépek szervizelését, és szoftverekkel való ellátása is akadozott.</p>
+          <p><h3>Tulajdonságai:</h3></p>
+          <p>A grafika kezelése más gépekhez képest újszerű volt, a logikai felbontás mindig 1024×960 képpont, amit a gép számított át mindig az adott grafikus módnak megfelelő valós képernyő-koordinátákra (kétszínű módban 512×240 (64×24 karakter), négyszínűben 256×240 (32×24 karakter), tizenhat színűben pedig 128×240 (16×24 karakter).</p> 
+          <p>A video-memória mérete 16 KB (ebből 15 KB a valóban használt), a képet egy 6845 típusú CRTC állítja elő. A gépnek nem volt külön grafikus és karakteres üzemmódja, a karakterek kirajzolása is pixelesen történt.</p>
+          <p>Különféle eszközökkel a gép bővíthető volt: rendelkezett TV-, RGB-, és videokimenettel, magnócsatlakozóval, Centronics párhuzamos porttal, 2 joystick porttal, cartridge csatolóval maximum 16 kB-os modulok számára, valamint 4 db bővítő porttal a gép tetején.</p>
+          <p>Forrás(ok):https://hu.wikipedia.org/wiki/Videoton_TVC/\/\https://ajovomultja.hu/videoton-tvc/?msclkid=871aab29c55711ec9ed6233028ce7778</p>
+        </div>
+        <footer>
+            <p>
+                <span id="év">2022</span>
+                <span>VideotonTVC64k</span>
+                <span id="osztály">10. c</span>
+            </p>
+        </footer> 
+        <script>
+          function hamburgermenu() {
+            var x = document.getElementById("dropdowns");
+            var y = document.getElementById("icon");
+            var z = document.getElementById("iconbtn");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+              y.style.width = "80px"
+              y.style.height = "52px"
+              z.style.border = "2px blue  solid"
+            } else {
+              x.style.display = "block";
+              y.style.width = "70px"
+              y.style.height = "44px"
+              z.style.border = "0.5px rgb(105,105,105)  solid"
+            }
+          }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,371 @@
+body{ 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    background-image: url(Képek/elmosott.png);
+}
+footer{
+    background-color: rgb(169,169,169);
+    margin-right: 30px;
+    margin-left: 30px;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 78px);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 0.5px rgb(105,105,105) solid;
+}
+footer>p{
+    text-align: center;
+    color: white;
+    margin: 8px;
+}
+#év{
+    float: left;
+}
+#osztály{
+    float: right;
+}
+
+.navbar a {
+    float: right;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: rgb(169,169,169);
+}
+#dropdown {
+    float: right;
+    overflow: hidden;
+    display: block;
+    background-color: rgb(169,169,169);
+}
+#dropdown1 {
+    float: right;
+    overflow: hidden;
+    display: block;
+    background-color: rgb(169,169,169);
+}
+#dropdown2 {
+    float: right;
+    overflow: hidden;
+    display: block;
+    background-color: rgb(169,169,169);
+}
+.dropbtn {
+    font-size: 18px;
+    font-weight: bolder;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    width: 135px;
+    text-align: center;
+    border: 0.5px rgb(105,105,105) solid;
+}
+.dropbtn:hover {
+    background-color: rgb(126, 183, 236);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    width: 135px;
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 135px;
+    color: white;
+    border: 0.5px rgb(105,105,105) solid;
+}
+.dropdown-content a:hover {
+    background-color: rgb(126, 183, 236);
+}
+  
+#dropdown:hover .dropdown-content {
+    display: block;
+}
+#dropdown1:hover .dropdown-content {
+    display: block;
+}
+
+#dropdown2:hover .dropdown-content {
+    display: block;
+}
+#dropdowns{
+    display: none;
+}
+.text{
+
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color: rgb(169,169,169);
+    margin-right: px;
+    margin-left: 23%;
+    position: relative;
+    margin-bottom: 4%;
+    width: calc(56% - 10px);
+    border-radius: 10px;
+    font-size: 19px;
+    font-weight: bolder;
+    border: 0.5px #2a3cad solid;
+}
+.text2{
+
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  background-color: rgb(169,169,169);
+  margin-right: px;
+  margin-left: 23%;
+  position: relative;
+  margin-bottom: 4%;
+  width: calc(56% - 10px);
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  border: 0.5px #2a3cad solid;
+}
+.text3{
+
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  background-color: rgb(169,169,169);
+  margin-right: px;
+  margin-left: 66%;
+  position: relative;
+  margin-bottom: 4%;
+  width: calc(13% - 10px);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+  border: 0.5px #2a3cad solid;
+}
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  .container{  padding-top: 20px;
+    padding-bottom: 20px;}
+  body{
+    background-color: #111845;
+  }
+  
+  .background-img{
+    background-image: url("Névtelen.png");
+  height: 500px;
+    width: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5% auto;
+    padding:20px;
+    border: 1px solid #2a3cad;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px #2a3cad;
+    position: relative;
+  }
+  
+  .content h2{ font-size:37px;}
+  
+  .box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    background: #111845a6;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgb(23, 32, 90);
+    border: 2px solid #2a3cad;
+    color: white;
+    padding: 20px;
+  }
+  
+  .box:before{
+    content: '';
+    position:absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:100%;
+    background: rgba(255,255,255,0.1);
+    transition:0.5s;
+    pointer-events: none;
+  }
+  
+  .box:hover:before{
+    left:-50%;
+    transform: skewX(-5deg);
+  }
+  
+  
+  .box .content{
+    position:absolute;
+    top:15px;
+    left:15px;
+    right:15px;
+    bottom:15px;
+    border:1px solid #c9b783;
+    padding:20px;
+    text-align:center;
+    box-shadow: 0 5px 10px rgba(9,0,0,0.5);
+    
+  }
+  
+  .box span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    
+  }
+  
+  .box span:nth-child(1)
+  {
+    transform:rotate(0deg);
+  }
+  
+  .box span:nth-child(2)
+  {
+    transform:rotate(90deg);
+  }
+  
+  .box span:nth-child(3)
+  {
+    transform:rotate(180deg);
+  }
+  
+  .box span:nth-child(4)
+  {
+    transform:rotate(270deg);
+  }
+  
+  .box span:before
+  {
+    content: '';
+    position: absolute;
+    width:100%;
+    height: 2px;
+    background: #50dfdb;
+    animation: animate 4s linear infinite;
+  }
+  
+  @keyframes animate {
+    0% {
+    transform:scaleX(0);
+    transform-origin: left;
+    }
+    50%
+    {
+      transform:scaleX(1);
+    transform-origin: left;
+    }
+    50.1%
+    {
+      transform:scaleX(1);
+    transform-origin: right;
+      
+    }
+    
+    100%
+    {
+      transform:scaleX(0);
+    transform-origin: right;
+      
+    }
+    
+    
+  } 
+  .slidershow{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .middle{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 250px;
+  }
+  .navigation{
+    position: relative;
+    bottom: 100px;
+    left: 93%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .bar:hover{
+    background: #fff;
+  }
+  
+  input[name="r"]{
+    position: absolute;
+      visibility: hidden;
+  }
+  
+  .slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 0.6s;
+  }
+  .slide img{
+    width: 50%;
+    height: 80%;
+  }
+  
+  #r1:checked ~ .s1{
+    margin-left: 0;
+  }
+  #r2:checked ~ .s1{
+    margin-left: -20%;
+  }
+  #r3:checked ~ .s1{
+    margin-left: -40%;
+  }
+  #r4:checked ~ .s1{
+    margin-left: -60%;
+  }
+  .kep{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
