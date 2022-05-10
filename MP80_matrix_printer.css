@@ -1,12 +1,8 @@
-
-body{
-    background-image: url(Képek/elmosott.png);
+body{ 
+    background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
-    background-repeat: no-repeat;
-
-    padding-bottom: 50px;
-
+    background-image: url(Képek/elmosott.png);
 }
 
 footer{
@@ -35,7 +31,6 @@ footer>p{
     float: right;
 }
 
-
 .navbar a {
     float: right;
     font-size: 18px;
@@ -51,6 +46,7 @@ footer>p{
     overflow: hidden;
     display: block;
     background-color: rgb(169,169,169);
+    
 }
 #dropdown1 {
     float: right;
@@ -84,7 +80,7 @@ footer>p{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    
     min-width: 160px;
     width: 135px;
     z-index: 1;
@@ -136,28 +132,30 @@ div.nulladik_div{
 }
 
 div.elso_div {
-    position:absolute;
+    
     right: 20px;
-    height: 90px;
-    width: 60%;
+    
+    width: 50%;
+    margin-left: 45% ;
+    margin-right: 35%;
+    margin-bottom: 1%;
+    margin-top: 1%;
     
 }
 
 div.masodik_div {
-    padding-left: 70px;
-    padding-top: 10px;
-    padding-left: 50px;
-    height: 90px;
+    padding-left:15% ;
     width: 32%;
 }
 
 div.harmadik_div {
-    position:absolute;
     right: 20px;
-    height: auto;
-    width: 60%;
-    padding-top: 5px;
-    font-size: 99%;
+    
+    width: 50%;
+    margin-left: 45% ;
+    margin-right: 35%;
+    margin-bottom: 1%;
+    
 }
 
 p.solid{
@@ -183,51 +181,40 @@ p.solid{
     margin: -1;
     padding-top: 30px;
     position: absolute;
-    padding-left: 20px;    
-}
-
-div{
-    padding-bottom: 20px;
+    padding-left: 25%;    
 }
 
 div.negyedik_div{
-    position: absolute;
-    height: 80px;
-    width: 50;
-    padding-top: 240px;
-    padding-right: 10px;
-    margin:0 auto;
+    right: 20px;
     
+    width: 50%;
+    
+    margin-right: 35%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    
+}
+.lap_kep{
+    width: 10%;
 }
 
-div.otodik_div{
-    
-    position:absolute;
-    right: 20px;
-    height: 100px;
-    width: 30%;
-    padding-top: 390px;
-    margin-bottom: 20%;
-    
-    
-}
 div.hatodik_div{
-    position: absolute;
-    height: 80px;
-    width: 60%;
-    padding-top: 400px;
+    right: 20px;
     
-    padding-left: 90px;
-    margin-bottom: 20%;
+    width: 50%;
+    margin-left: 45% ;
+    margin-right: 35%;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 div.hetedik_div{
-    position: absolute;
-    height: 80px;
-    width: 60%;
-    padding-top: 400px;
+    right: 20px;
     
-    padding-left: 300px;
-    margin-top: 10%;
+    width: 50%;
+    
+    margin-right: 35%;
+    margin-bottom: 3%;
+    margin-top: 1%;
 }
  
 .Források_link{
