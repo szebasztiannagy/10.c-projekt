@@ -1,0 +1,114 @@
+body{
+  background-image: url("elmosott.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+#boxes {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div {
+  float: left;
+  height: 470px;
+  width: 23%;
+  padding: 0 10px;
+}
+
+#fodiv{
+  width:fit-content;
+  margin: auto;
+
+}
+
+#column1 {
+  background-color: #A9A9A9;
+  float: left;
+  border-style: solid;
+  margin-left: 7%;
+  border-radius: 10%;
+  width: 40%;
+ 
+}
+img{
+  width:100%;
+}
+
+#column2 {
+  background-color: #A9A9A9;
+  width: 40%;
+  margin-left:20px;
+  border-style: solid;
+  margin-right: 7%;
+  border-radius: 10%;
+}
+
+.cim{
+  text-align: center;
+  color: #000000;
+  background-color:#A9A9A9;
+  border-radius:10px;
+  border-style: solid;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+section {
+  width: 100%;
+  height: 400vh;
+}
+.gotopbtn {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background: #a9a9a9;
+  opacity: 0.7;
+  bottom: 40px;
+  right: 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  font-size: 18px;
+
+}
+.gotopbtn:hover {
+  background: #000000;
+  opacity: 0.8;
+}
+table{
+  margin-left:30%;
+  border-collapse: collapse;
+  width: 363%;
+  margin-top: 10%;
+  border:solid;
+
+  background-color: #A9A9A9;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; 
+  border-style: ridge;
+}  
+
+
+tr:hover {
+  background-color: grey;
+}
+
+.logo{
+  bottom: 40px;
+  float: right;
+}
