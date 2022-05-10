@@ -1,0 +1,37 @@
+#cim{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-style: italic;
+}
+body{
+    background-image: url("Képek/elmosott.png");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+#szoveg{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    font-size: 18px;
+}
+#kep{
+    width: 600px;
+    height: 500px;
+    border-radius: 5%;
+}
+.div{
+    border: 10px outset white ;
+    background-color: grey;
+    text-align: center;
+    padding: 2px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 45px;
+}
+.link{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
