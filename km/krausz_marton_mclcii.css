@@ -55,7 +55,7 @@ footer>p{
 
 }
 #dropdown2 {
-    float: right;
+  float: right;
     overflow: hidden;
     display: block;
     background-color: rgb(169,169,169);
@@ -132,17 +132,14 @@ body{
     clear: both;
   }
   
-  div {
-    float: left;
-    height: 470px;
-    width: 23%;
-    padding: 0 10px;
-  }
   
   #fodiv{
     width:fit-content;
     margin: auto;
-  
+    float: left;
+    height: 470px;
+    width: 23%;
+    padding: 0 10px;
   }
   
   #column1 {
@@ -150,7 +147,7 @@ body{
     float: left;
     border-style: solid;
     margin-left: 7%;
-    border-radius: 10%;
+    
     width: 40%;
    
   }
@@ -164,7 +161,8 @@ body{
     margin-left:20px;
     border-style: solid;
     margin-right: 7%;
-    border-radius: 10%;
+    
+    float: right;
   }
   
   .cim{
@@ -207,12 +205,12 @@ body{
     opacity: 0.8;
   }
   table{
-    margin-left:30%;
+    margin-left:7%;
     border-collapse: collapse;
-    width: 363%;
+  
     margin-top: 10%;
     border:solid;
-  
+    float: left;
     background-color: #A9A9A9;
   }
   
@@ -232,4 +230,11 @@ body{
     bottom: 80px;
     float: right;
     size: 70%;
+  }
+  #Szöveg {
+    margin-left: 10px;
+  }
+
+  #cim1{
+    margin-left: 10px;
   }
