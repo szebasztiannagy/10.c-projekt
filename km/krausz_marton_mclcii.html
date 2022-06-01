@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="krausz_marton_mclcii.css" rel="stylesheet">
+        <title>Főoldal</title>
+    </head>
+    <body>
+      <map name="image-map">
+          <area alt="printer" title="printer" href="printer.html" coords="165,259,588,512" shape="rect">
+          <area alt="calc" title="calc" href="calc.html" coords="1319,254,1740,510" shape="rect">
+          <area alt="pc" title="pc" href="pc.html" coords="162,677,586,936" shape="rect">
+          <area alt="salamon" title="salamon" href="salamon.html" coords="1319,677,1745,933" shape="rect">
+      </map>
+        <div class="navbar">
+            <a style="padding: 0px 0px; border: 2px blue  solid;"class="icon" id="iconbtn" onclick=hamburgermenu()>
+              <img src="Képek/közgázlogó.png" id="icon" alt="Navbar btn" width="80" height="52">
+            </a>
+            <div id="dropdowns">
+              <div id="dropdown">
+                <div class="dropbtn">Számológépek
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href=".//bm/Daro_Ascota.html">Daro Ascota</a>
+                    <a href=".//skt/sagodikristof.html">Triumphator szorzógép</a>
+                    <a href=".//wd/Contex-30.html">Contex-30</a>
+                </div>
+              </div>
+              <div id="dropdown1">
+                <div  class="dropbtn">Számítógépek
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href=".//jb/HP_Portable_Vectra_CS.html">Hewlett Packard Portable Vecta CS</a>
+                    <a href=".//kj/kosik_janos.html">Toshiba  T3100SX</a>
+                    <a href=".//ká/commodore64.html">Commodore 64</a>
+                    <a href=".//km/mclcii.html">Machintos LC ii</a>
+                    <a href=".//mb/robotron.html">Robotron</a>
+                    <a href=".//nm/VTVC64K.html">BASF 641</a>
+                    <a href=".//nsz/ABC_80.html">ABC 80</a>
+                    <a href=".//ora/MERA_9150.html">MERA 9150</a>
+                    <a href=".//pd/ibmterminal.html">IBM 5291 Terminál</a>
+                    <a href=".//prd/Proper_16A.html">Proper 16a</a>
+                    <a href=".//szm/Mera_7951_om.html">MERA 7951 OM</a>
+                    <a href=".//tá/Sinclair_Spectrum.html">Sinclair Spectrum ZX</a>
+                </div>
+              </div>
+              <div id="dropdown2">
+                <div  class="dropbtn">Nyomtatók
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href=".//tdj/MP80_matrix_printer.html">MP80 matrix printer</a>
+                    <a href=".//oa/oroszadam.html">EMG 893</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div>
+          <h1 style="padding-top:9px;padding-left:15px;font-size: 30px;color: white;font-weight: bolder;">Ceglédi SZC Közgazdasági és Informatikai Technikum</h1>
+        </div>
+        <footer>
+            <p>
+                <span id="év">2022</span>
+                <span>Főoldal</span>
+                <span id="osztály">10. c</span>
+            </p>
+        </footer> 
+        <script>
+          function hamburgermenu() {
+            var x = document.getElementById("dropdowns");
+            var y = document.getElementById("icon");
+            var z = document.getElementById("iconbtn");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+              y.style.width = "80px"
+              y.style.height = "52px"
+              z.style.border = "2px blue  solid"
+            } else {
+              x.style.display = "block";
+              y.style.width = "70px"
+              y.style.height = "44px"
+              z.style.border = "0.5px rgb(105,105,105)  solid"
+            }
+          }
+        </script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/jquery.rwdImageMaps.min.js"></script>    
+        <script>
+            $(document).ready(function(e) {
+                $('img[usemap]').rwdImageMaps();
+            });
+        </script>  
+        <body>
+          <main id="boxes">
+            <h2 class="cim">Machintos LC ii</h2>
+            <div id="fodiv">
+            <div id="column1">
+              <h2></h2>
+              <img src = "resized-image-Promo.jpeg">
+            </div>
+            <div id="column2">
+              <h2>Machintos LC II</h2>
+              A Macintosh LC ii az Apple által tervezett és eladott számítógép. Gyártása 1992 márciusától 1993-ig tartott. 
+              Az LC II egy frissítése az eredeti Macintosh LC-nek, új processzort kapott a Motorola 68020 processor helyett egy újjab 68030 modellt kapott emellet a memóriát is 4 MB-tal növelték. Az LC II-es $1,699-ba került pont $800-al kevesebb mint az eredeti LC megjelenésekor.
+              1992 Szeptemberében az Apple bemutatta a “Macintosh Performa” családot ami átlag felhasználó orientált volt. Az LC II új nevet kapott : Performa 400. Az LC ii-t 1993-ban váltották le a következő modellel az LC iii-mal , ezután befejezték az LC ii árusítását Észak-Amerikában, és két új Performa modellt (a 405 és a 430) hoztak be a helyére. Októberben, a Performa 400, 405 és 430 gyártását befejezték és egy új LC II-alapú model lépett a helyébe név szerint a Performa 410, ez lett az új belépő szintű Apple számítógép.
+              Az LC II az Apple legsikeresebb Macintosh terméke volt 1992-ben.
+              <h2>Forrás:</h2>
+              <br>https://en.wikipedia.org/wiki/Macintosh_II
+              <br>Fordította: Krausz Márton
+              <br>
+            <div class = "logo">
+              <img src = "apple.png">
+            </div>
+            </div>
+          </div>
+            <div>
+              <table>
+                <tbody>
+                <tr>
+                <td>&nbsp;Processzor</td>
+                <td>68030&nbsp;</td>
+                </tr>
+                <tr>
+                <td>&nbsp;Ház</td>
+                <td>"Pizza doboz" forma, hófehér&nbsp;</td>
+                </tr>
+                <tr>
+                <td>&nbsp;Alaplap</td>
+                <td>16-bites, megegyezik az eredeti LC-vel&nbsp;</td>
+                </tr>
+                <tr>
+                <td>&nbsp;Tárhely</td>
+                <td>40MB vagy 80MB floppy tárhely&nbsp;</td>
+                </tr>
+                <tr>
+                <td>&nbsp;Videó tárhely</td>
+                <td>256kb vagy 512kb&nbsp;</td>
+                </tr>
+                <tr>
+        
+                </tr>
+                </tbody>
+                </table>
+            </div>
+            <div>
+              <!-- your content goes here  -->
+            </div>
+        
+            <section style="padding:100px;">
+              <h1></h1>
+              <p></p>
+            </section>
+          
+          
+            <a class="gotopbtn" href="#"> Tetejére <i class="fas fa-arrow-up"></i> </a>
+    </body>
+</html>

@@ -1,0 +1,235 @@
+
+footer{
+    background-color: rgb(169,169,169);
+    margin-right: 30px;
+    margin-left: 30px;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 78px);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 0.5px rgb(105,105,105) solid;
+}
+footer>p{
+    text-align: center;
+    color: white;
+    margin: 8px;
+}
+#év{
+    float: left;
+}
+#osztály{
+    float: right;
+}
+.navbar{
+    margin-top: 25px;
+    margin-right: 10px;
+    float: right;
+    width: auto;
+    height: fit-content;
+}
+.navbar a {
+    float: right;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: rgb(169,169,169);
+}
+#dropdown {
+    float: right;
+    overflow: hidden;
+    display: block;
+    background-color: rgb(169,169,169);
+    width: auto;
+}
+#dropdown1 {
+    float: right;
+    overflow: hidden;
+    display: block;
+    background-color: rgb(169,169,169);
+    width: auto;
+
+}
+#dropdown2 {
+    float: right;
+    overflow: hidden;
+    display: block;
+    background-color: rgb(169,169,169);
+    width: auto;
+
+}
+
+.dropbtn {
+    font-size: 18px;
+    font-weight: bolder;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    width: 135px;
+    text-align: center;
+    border: 0.5px rgb(105,105,105) solid;
+}
+.dropbtn:hover {
+    background-color: rgb(126, 183, 236);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    width: 135px;
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 135px;
+    color: white;
+    border: 0.5px rgb(105,105,105) solid;
+}
+.dropdown-content a:hover {
+    background-color: rgb(126, 183, 236);
+}
+  
+#dropdown:hover .dropdown-content {
+    display: block;
+}
+#dropdown1:hover .dropdown-content {
+    display: block;
+}
+
+#dropdown2:hover .dropdown-content {
+    display: block;
+}
+#dropdowns{
+    display: none;
+    width: auto;
+}
+
+body{
+    background-image: url("elmosott.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  
+  #boxes {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  div {
+    float: left;
+    height: 470px;
+    width: 23%;
+    padding: 0 10px;
+  }
+  
+  #fodiv{
+    width:fit-content;
+    margin: auto;
+  
+  }
+  
+  #column1 {
+    background-color: #A9A9A9;
+    float: left;
+    border-style: solid;
+    margin-left: 7%;
+    border-radius: 10%;
+    width: 40%;
+   
+  }
+  img{
+    width:100%;
+  }
+  
+  #column2 {
+    background-color: #A9A9A9;
+    width: 40%;
+    margin-left:20px;
+    border-style: solid;
+    margin-right: 7%;
+    border-radius: 10%;
+  }
+  
+  .cim{
+    text-align: center;
+    color: #000000;
+    background-color:#A9A9A9;
+    border-radius:10px;
+    border-style: solid;
+  
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  section {
+    width: 100%;
+    height: 400vh;
+  }
+  .gotopbtn {
+    position: fixed;
+    width: auto;
+    height: 40px;
+    background: #a9a9a9;
+    opacity: 0.7;
+    bottom: 40px;
+    right: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 18px;
+  
+  }
+  .gotopbtn:hover {
+    background: #000000;
+    opacity: 0.8;
+  }
+  table{
+    margin-left:30%;
+    border-collapse: collapse;
+    width: 363%;
+    margin-top: 10%;
+    border:solid;
+  
+    background-color: #A9A9A9;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+    border-style: ridge;
+  }  
+  
+  
+  tr:hover {
+    background-color: grey;
+  }
+  
+  .logo{
+    bottom: 80px;
+    float: right;
+    size: 70%;
+  }
