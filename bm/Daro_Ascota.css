@@ -2,7 +2,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
-    background-image: url(Képek/elmosott.png);
+    background-image: url(Kepek/elmosott.png);
 }
 footer{
     background-color: rgb(169,169,169);
@@ -183,7 +183,7 @@ h2{
     border: 6px solid;
     width: 1050px;
     padding: 10px;
-    background-image: url('Képek/hatter.png');
+    background-image: url('Kepek/hatter.png');
     margin-top: 3%;
     margin-bottom: 3%;
     margin-right: 50%;
@@ -210,7 +210,7 @@ h3{
     border: 6px solid;
     width: 550px;
     padding: 10px;
-    background-image: url('Képek/hatter.png');
+    background-image: url('Kepek/hatter.png');
     margin-top: -500px;
     margin-bottom: 7px;
     box-sizing:border-box;
