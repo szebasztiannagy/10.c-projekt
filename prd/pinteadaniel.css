@@ -20,21 +20,24 @@ footer{
     border: 0.5px rgb(105,105,105) solid;
 }
 
-footer>p{
+footer p{
     text-align: center;
     color: white;
-    margin: 8px;
+}
+
+footer span{
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 #év{
     float: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #osztály{
     float: right;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 
 .Main{
     padding-top:9px;
